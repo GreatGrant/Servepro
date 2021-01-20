@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="ModeLight"
+        android:id="@+id/action_modeLight"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_wb_sunny_24"
+        />
+
+    <item
+        android:title="ModeDark"
+        android:id="@+id/action_modedark"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_baseline_nights_stay_24"
+        />
+
+</menu>

@@ -37,7 +37,7 @@
                 android:id="@+id/animationView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:lottie_rawRes="@raw/cart"
+                app:lottie_rawRes="@raw/loading"
                 app:lottie_autoPlay="true"
                 app:lottie_loop="true"/>
 
@@ -54,7 +54,7 @@
                     android:layout_below="@id/txtNoConnection"
                     android:layout_centerHorizontal="true"
                     android:layout_marginTop="60dp"
-                    android:background="@color/purple_700"
+                    android:background="@color/dark_blue"
                     android:text="Retry"
                     android:textColor="#ffffff"
                     android:textSize="22sp" />
