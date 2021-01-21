@@ -8,8 +8,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Servepro">
+        android:theme="@ode/Theme.Servepro">
+
         <activity android:name=".OnboardingActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+
+        <activity android:name=".LauncherActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Design.NoActionBar">
             <intent-filter>
